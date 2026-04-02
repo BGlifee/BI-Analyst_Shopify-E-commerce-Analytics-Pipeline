@@ -1,0 +1,22 @@
+[shopify]
+store_url = "your-store-name.myshopify.com"
+api_version = "2025-01"
+access_token = "YOUR_SHOPIFY_ADMIN_API_TOKEN"
+
+[paths]
+raw_data = "data/raw"
+interim_data = "data/interim"
+processed_data = "data/processed"
+figures = "outputs/figures"
+tables = "outputs/tables"
+
+[files]
+orders_raw = "orders_raw.json"
+customers_raw = "customers_raw.json"
+orders_clean = "orders_clean.csv"
+customers_clean = "customers_clean.csv"
+cohort_table = "cohort_table.csv"
+
+[analysis]
+currency = "USD"
+cohort_period = "monthly"

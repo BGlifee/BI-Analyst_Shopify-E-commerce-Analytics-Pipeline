@@ -1,0 +1,7 @@
+pandas
+numpy
+requests
+toml
+python-dotenv
+matplotlib
+jupyter
